@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFF0BD1822A0708C00F6184F /* Klotski.json in Resources */ = {isa = PBXBuildFile; fileRef = BFF0BD1722A0708C00F6184F /* Klotski.json */; };
+		BFF4AB08229B34F7004137EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF4AB07229B34F7004137EF /* AppDelegate.swift */; };
+		BFF4AB0D229B34F7004137EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF4AB0B229B34F7004137EF /* Main.storyboard */; };
+		BFF4AB0F229B34F9004137EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF4AB0E229B34F9004137EF /* Assets.xcassets */; };
+		BFF4AB12229B34F9004137EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF4AB10229B34F9004137EF /* LaunchScreen.storyboard */; };
+		BFF4AB1A229B3555004137EF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF4AB19229B3554004137EF /* Model.swift */; };
+		BFF4AB1C229BB806004137EF /* MasterCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF4AB1B229BB806004137EF /* MasterCollectionViewController.swift */; };
+		BFF4AB1E229BC4D9004137EF /* DetailCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF4AB1D229BC4D9004137EF /* DetailCollectionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BFCE2FB522A1537300657531 /* Klotski.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Klotski.playground; sourceTree = "<group>"; };
+		BFF0BD1722A0708C00F6184F /* Klotski.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Klotski.json; sourceTree = "<group>"; };
+		BFF4AB04229B34F7004137EF /* Klotski iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Klotski iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF4AB07229B34F7004137EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFF4AB0C229B34F7004137EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFF4AB0E229B34F9004137EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFF4AB11229B34F9004137EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFF4AB13229B34F9004137EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFF4AB19229B3554004137EF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		BFF4AB1B229BB806004137EF /* MasterCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterCollectionViewController.swift; sourceTree = "<group>"; };
+		BFF4AB1D229BC4D9004137EF /* DetailCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCollectionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFF4AB01229B34F7004137EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFF4AAFB229B34F7004137EF = {
+			isa = PBXGroup;
+			children = (
+				BFCE2FB522A1537300657531 /* Klotski.playground */,
+				BFF4AB06229B34F7004137EF /* Klotski iOS */,
+				BFF4AB05229B34F7004137EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFF4AB05229B34F7004137EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFF4AB04229B34F7004137EF /* Klotski iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFF4AB06229B34F7004137EF /* Klotski iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BFF0BD1722A0708C00F6184F /* Klotski.json */,
+				BFF4AB07229B34F7004137EF /* AppDelegate.swift */,
+				BFF4AB19229B3554004137EF /* Model.swift */,
+				BFF4AB1B229BB806004137EF /* MasterCollectionViewController.swift */,
+				BFF4AB1D229BC4D9004137EF /* DetailCollectionViewController.swift */,
+				BFF4AB0B229B34F7004137EF /* Main.storyboard */,
+				BFF4AB0E229B34F9004137EF /* Assets.xcassets */,
+				BFF4AB10229B34F9004137EF /* LaunchScreen.storyboard */,
+				BFF4AB13229B34F9004137EF /* Info.plist */,
+			);
+			path = "Klotski iOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFF4AB03229B34F7004137EF /* Klotski iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF4AB16229B34F9004137EF /* Build configuration list for PBXNativeTarget "Klotski iOS" */;
+			buildPhases = (
+				BFF4AB00229B34F7004137EF /* Sources */,
+				BFF4AB01229B34F7004137EF /* Frameworks */,
+				BFF4AB02229B34F7004137EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Klotski iOS";
+			productName = "Klotski iOS";
+			productReference = BFF4AB04229B34F7004137EF /* Klotski iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFF4AAFC229B34F7004137EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "James Coleman";
+				TargetAttributes = {
+					BFF4AB03229B34F7004137EF = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = BFF4AAFF229B34F7004137EF /* Build configuration list for PBXProject "Klotski iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFF4AAFB229B34F7004137EF;
+			productRefGroup = BFF4AB05229B34F7004137EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFF4AB03229B34F7004137EF /* Klotski iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFF4AB02229B34F7004137EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF4AB12229B34F9004137EF /* LaunchScreen.storyboard in Resources */,
+				BFF0BD1822A0708C00F6184F /* Klotski.json in Resources */,
+				BFF4AB0F229B34F9004137EF /* Assets.xcassets in Resources */,
+				BFF4AB0D229B34F7004137EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFF4AB00229B34F7004137EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF4AB1A229B3555004137EF /* Model.swift in Sources */,
+				BFF4AB1E229BC4D9004137EF /* DetailCollectionViewController.swift in Sources */,
+				BFF4AB1C229BB806004137EF /* MasterCollectionViewController.swift in Sources */,
+				BFF4AB08229B34F7004137EF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFF4AB0B229B34F7004137EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFF4AB0C229B34F7004137EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFF4AB10229B34F9004137EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFF4AB11229B34F9004137EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFF4AB14229B34F9004137EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFF4AB15229B34F9004137EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFF4AB17229B34F9004137EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3V57DT83Y;
+				INFOPLIST_FILE = "Klotski iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.everythingsrelative.Klotski-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFF4AB18229B34F9004137EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3V57DT83Y;
+				INFOPLIST_FILE = "Klotski iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.everythingsrelative.Klotski-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFF4AAFF229B34F7004137EF /* Build configuration list for PBXProject "Klotski iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF4AB14229B34F9004137EF /* Debug */,
+				BFF4AB15229B34F9004137EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF4AB16229B34F9004137EF /* Build configuration list for PBXNativeTarget "Klotski iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF4AB17229B34F9004137EF /* Debug */,
+				BFF4AB18229B34F9004137EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFF4AAFC229B34F7004137EF /* Project object */;
+}
